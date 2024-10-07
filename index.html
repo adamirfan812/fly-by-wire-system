@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly-By-Wire System in Aircraft</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fly-By-Wire System in Aircraft</h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#components">Components</a></li>
+                <li><a href="#simulator">Simulator</a></li>
+                <li><a href="#quiz">Quiz</a></li> <!-- Added Quiz Link -->
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <!-- Overview Section -->
+        <section id="overview">
+            <h2>What is Fly-By-Wire?</h2>
+            <p>Fly-By-Wire (FBW) is a system that replaces traditional manual flight controls with an electronic interface. Pilot inputs are sent electronically to flight control computers, which process them and command the aircraft's control surfaces.</p>
+        </section>
+
+        <!-- History Section -->
+        <section id="history">
+            <h2>History of Fly-By-Wire</h2>
+            <p>The Fly-By-Wire system originated in the 1950s and has evolved through time:</p>
+            <div class="timeline">
+                <div class="timeline-item" data-year="1950s-1960s">
+                    <h3>1950s-1960s</h3>
+                    <p>Early tests in military jets like the Avro Vulcan.</p>
+                </div>
+                <div class="timeline-item" data-year="1970s">
+                    <h3>1970s</h3>
+                    <p>The Concorde was one of the first commercial aircraft with FBW.</p>
+                </div>
+                <div class="timeline-item" data-year="1980s">
+                    <h3>1980s</h3>
+                    <p>Airbus A320 became the first commercial aircraft with a fully digital FBW system.</p>
+                </div>
+                <div class="timeline-item" data-year="Present Day">
+                    <h3>Present Day</h3>
+                    <p>FBW is the standard in modern aircraft such as the Boeing 787 and Airbus A350.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Components Section -->
+        <section id="components">
+            <h2>Key Components of a Fly-By-Wire System</h2>
+            <p>Fly-By-Wire systems consist of various essential components, including:</p>
+            <ul>
+                <li><strong>Sensors:</strong> Collect data on the aircraft’s state, such as speed and altitude.</li>
+                <li><strong>Flight Control Computers:</strong> Process pilot inputs and optimize control commands.</li>
+                <li><strong>Actuators:</strong> Control the aircraft’s surfaces like the ailerons, elevators, and rudders.</li>
+                <li><strong>Power Supply:</strong> Keeps the system operational.</li>
+                <li><strong>Backup Systems:</strong> Redundant systems to ensure safety in case of failure.</li>
+            </ul>
+        </section>
+
+        <!-- Simulator Section -->
+        <section id="simulator">
+            <h2>Fly-By-Wire Simulator</h2>
+            <p>Use the W, A, S, D keys on your keyboard to control the aircraft!</p>
+            <canvas id="flightSimulator" width="600" height="400"></canvas>
+        </section>
+        <!-- Quiz Section -->
+<section id="quiz">
+    <h2>Quiz</h2>
+    <p>Test your knowledge about the Fly-By-Wire system!</p>
+    <div id="quizContainer">
+        <div id="question"></div>
+        <div id="options"></div>
+        <div id="feedback"></div>
+        <button id="nextButton">Next Question</button>
+        <div id="result"></div>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fly-By-Wire System</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
